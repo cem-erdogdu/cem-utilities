@@ -1,0 +1,14 @@
+[project]
+name = "cem-utilities"
+version = "0.1.0"
+description = "Small CLI utilities (starter repo for SWE-Arena)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+cem = "cem_utils.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
